@@ -1,0 +1,13 @@
+\textbf{Calibration} & \multicolumn{3}{c}{\textbf{Validation KL}} & \multicolumn{4}{c}{\textbf{8 epochs}} & \multicolumn{4}{c}{\textbf{24 epochs}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-8}\cmidrule(lr){9-12}
+ & $3{\times}10^{-5}$ & $10^{-4}$ & $3{\times}10^{-4}$ & \textit{Wiki} & \textit{C4} & \textit{SP} & \textit{Acc} & \textit{Wiki} & \textit{C4} & \textit{SP} & \textit{Acc} \\
+\midrule
+WikiText-2 & 0.967 & \textbf{0.888} & 0.909 & 22.8 & 102 & 261 & 35.1 & 21.2 & 86.3 & 206 & 35.5 \\
+C4 & 1.165 & \textbf{1.082} & 1.112 & 64.5 & 45.3 & 108 & 36.6 & 54.3 & 41.6 & 97.3 & 37.6 \\
+SlimPajama & 1.302 & \textbf{1.215} & 1.230 & 59.7 & 52.0 & 34.3 & 34.8 & 51.3 & 47.6 & 31.4 & 35.9 \\
+Alpaca & 0.524 & \textbf{0.456} & 0.477 & 135 & 76.4 & 99.2 & 37.8 & 134 & 71.4 & 93.9 & 38.4 \\
+Self (seq.) & 0.670 & \textbf{0.669} & 0.761 & 54.2 & 59.8 & 39.3 & 34.5 & 47.1 & 54.0 & 35.3 & 35.4 \\
+Self (doc.) & 1.074 & \textbf{0.969} & 0.981 & 45.4 & 48.4 & 32.5 & 35.6 & 40.2 & 43.7 & 29.3 & 36.4 \\
+\midrule
+WikiText-2, SlimPajama statistics & -- & -- & -- & 25.5 & 76.2 & 71.3 & 35.5 & 23.1 & 71.5 & 68.4 & 36.0 \\
+SlimPajama, WikiText-2 statistics & -- & -- & -- & 35.8 & 55.8 & 41.5 & 35.4 & 34.7 & 50.3 & 37.0 & 36.0 \\

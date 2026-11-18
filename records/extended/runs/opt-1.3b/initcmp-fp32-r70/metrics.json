@@ -1,0 +1,40 @@
+{
+  "done": true,
+  "init": {
+    "kl": {},
+    "ppl": {
+      "c4": 6798.094697494209,
+      "wikitext2": 4409.037746365277
+    },
+    "ppl_stream": {
+      "c4": 6824.307096317866,
+      "wikitext2": 4291.222661659351
+    },
+    "sp_ppl": {},
+    "xppl": {},
+    "xppl_dense": {}
+  },
+  "params": {
+    "dense": 1207959552,
+    "stored": 362250240
+  },
+  "realized_ratio": 0.7001139322916667,
+  "timing": {
+    "alloc": {
+      "peak_gb": 2.46,
+      "seconds": 0.01
+    },
+    "calibration": {
+      "peak_gb": 2.45,
+      "seconds": 5.98
+    },
+    "eval_init": {
+      "peak_gb": 6.31,
+      "seconds": 21.9
+    },
+    "grams": {
+      "peak_gb": 4.59,
+      "seconds": 172.41
+    }
+  }
+}

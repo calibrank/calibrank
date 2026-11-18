@@ -1,0 +1,49 @@
+{
+ "dense": {
+  "decode_tok_s_b1": 91.40390608595453,
+  "decode_tok_s_b16": 1418.4137999279146,
+  "peak_gb_b1": 2.4425086975097656,
+  "peak_gb_b16": 4.540164947509766,
+  "prefill_ms_b1": 45.84394721314311,
+  "prefill_ms_b8": 308.05562576279044,
+  "weights_gb": 2.3018836975097656
+ },
+ "env": {
+  "cuda": "12.4",
+  "driver": "615.71.09",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_mem_gb": 39.5,
+  "lm_eval": "0.4.9.2",
+  "platform": "Linux-4.18.0-553.162.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.12.13",
+  "started": "2026-11-12T23:36:39",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.6"
+ },
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "model": "meta-llama/Llama-3.2-1B",
+ "r30": {
+  "decode_tok_s_b1": 83.3725326015844,
+  "decode_tok_s_b16": 1247.9638643790868,
+  "dense_compressible": 973078528,
+  "peak_gb_b1": 1.8990058898925781,
+  "peak_gb_b16": 4.000591278076172,
+  "prefill_ms_b1": 57.96899227425456,
+  "prefill_ms_b8": 387.9502099007368,
+  "realized_ratio": 0.3001582704741379,
+  "stored_compressible": 681000960,
+  "weights_gb": 1.7578468322753906
+ },
+ "r50": {
+  "decode_tok_s_b1": 84.30677546641529,
+  "decode_tok_s_b16": 1272.1338720220867,
+  "dense_compressible": 973078528,
+  "peak_gb_b1": 1.5361366271972656,
+  "peak_gb_b16": 3.6362342834472656,
+  "prefill_ms_b1": 58.6742446757853,
+  "prefill_ms_b8": 404.7664012759924,
+  "realized_ratio": 0.500067349137931,
+  "stored_compressible": 486473728,
+  "weights_gb": 1.3955116271972656
+ }
+}

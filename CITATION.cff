@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or these records, please cite the paper."
+type: software
+title: "calibrank: code and run records for 'When Calibration Data Become Training Data'"
+version: 1.0.0
+license: Apache-2.0
+repository-code: "https://github.com/calibrank/calibrank"
+authors:
+  - family-names: Pham
+    given-names: Van Tien
+    orcid: "https://orcid.org/0000-0003-3890-7188"
+keywords:
+  - large language models
+  - model compression
+  - low-rank factorization
+  - knowledge distillation
+  - calibration data
+  - self-generated data
+preferred-citation:
+  type: article
+  title: "When Calibration Data Become Training Data: Specialization and Self-Generated Text in Learned Low-Rank Compression of Large Language Models"
+  authors:
+    - family-names: Pham
+      given-names: Van Tien
+      orcid: "https://orcid.org/0000-0003-3890-7188"
+  journal: "Informatics"
+  publisher:
+    name: "MDPI"
+  year: 2026
+  volume: 13
+  issue: 11
+  number: 201
+  issn: "2227-9709"
+  url: "https://www.mdpi.com/2227-9709/13/11/201"
+  doi: "10.3390/informatics13110201"

@@ -1,0 +1,49 @@
+{
+ "dense": {
+  "decode_tok_s_b1": 99.3492459342225,
+  "decode_tok_s_b16": 1308.0563537743103,
+  "peak_gb_b1": 2.595539093017578,
+  "peak_gb_b16": 4.753068923950195,
+  "prefill_ms_b1": 34.99878104776144,
+  "prefill_ms_b8": 213.48567493259907,
+  "weights_gb": 2.4507904052734375
+ },
+ "env": {
+  "cuda": "12.4",
+  "driver": "615.71.09",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_mem_gb": 39.5,
+  "lm_eval": "0.4.9.2",
+  "platform": "Linux-4.18.0-553.162.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.12.13",
+  "started": "2026-11-12T23:36:28",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.6"
+ },
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "model": "facebook/opt-1.3b",
+ "r30": {
+  "decode_tok_s_b1": 84.583974245574,
+  "decode_tok_s_b16": 1003.4363851330342,
+  "dense_compressible": 1207959552,
+  "peak_gb_b1": 1.9289054870605469,
+  "peak_gb_b16": 4.077959060668945,
+  "prefill_ms_b1": 62.789002899080515,
+  "prefill_ms_b8": 423.5832430422306,
+  "realized_ratio": 0.300048828125,
+  "stored_compressible": 845512704,
+  "weights_gb": 1.7756805419921875
+ },
+ "r50": {
+  "decode_tok_s_b1": 84.56174587192434,
+  "decode_tok_s_b16": 1238.1079608167568,
+  "dense_compressible": 1207959552,
+  "peak_gb_b1": 1.4715957641601562,
+  "peak_gb_b16": 3.6280689239501953,
+  "prefill_ms_b1": 33.75699697062373,
+  "prefill_ms_b8": 211.14838682115078,
+  "realized_ratio": 0.5,
+  "stored_compressible": 603979776,
+  "weights_gb": 1.3257904052734375
+ }
+}

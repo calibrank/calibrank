@@ -1,0 +1,12 @@
+\textbf{Initialization} & \multicolumn{3}{c}{\textbf{OPT-125M}} & \multicolumn{3}{c}{\textbf{OPT-1.3B}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+ & $-30\%$ & $-50\%$ & $-70\%$ & $-30\%$ & $-50\%$ & $-70\%$ \\
+\midrule
+As in this study (square layers: input side) & 568 & 1{,}126 & 2{,}521 & 28.3 & 114 & 4{,}264 \\
+Ridge $0.01\bar{g}$ on output Gram matrices & 568 & 1{,}126 & 2{,}521 & 28.3 & 114 & 4{,}263 \\
+Statistics and factorizations in fp32 & 567 & 1{,}126 & 2{,}518 & 28.3 & 113 & 4{,}291 \\
+Calibration windows without BOS & 580 & 1{,}109 & 2{,}475 & 27.5 & 107 & 3{,}726 \\
+Square layers on their output side & 568 & 657 & 1{,}383 & 27.0 & 80.0 & 931 \\
+Output side and ridge & 568 & 657 & 1{,}383 & 27.0 & 80.1 & 928 \\
+\midrule
+Published (LSP) & 582 & 664 & 1{,}538 & 26.1 & 74.4 & 814 \\
